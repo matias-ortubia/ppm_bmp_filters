@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -std=c99 -Wall -Werror -pedantic -g
 LDFLAGS = -lm
 OBJECTS = main.o endianness.o pixel.o imagen.o argumentos.o filtro.o procesamiento.o
-PROGRAM = 20202_tp1
+PROGRAM = ppm_bmp_filters
 
 all: $(PROGRAM)
 
