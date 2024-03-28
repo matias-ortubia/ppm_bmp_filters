@@ -19,7 +19,7 @@ To select the input file, use the '-input' flag, followed by the filename, as fo
 It's important that the input file have .PPM or .BMP extention.
 
 ### Output
-In a simmilar way, use the '-output' flag as follows:
+In a similar way, use the '-output' flag as follows:
 
 ```bash
 -output [output_file_name]
@@ -29,7 +29,7 @@ In a simmilar way, use the '-output' flag as follows:
 To apply a filter, use the '-filter' flag, followed by the filter name.
 
 ```bash
-./ppm_bmp_filters -output [output_file_name]
+-filter [filter_name]
 ```
 
 The following filters are available:
